@@ -84,31 +84,58 @@ Exception is an unwanted or unexpected result or event that occurs during the ex
 to handle runtime errors such we use Java Exception Handling mechanism such as ClassNotFoundException, IOException, SQLException, RemoteException, etc.
 
 
-21.	What is static keyword in java? How it has been used in variables and methods ?
+
+21.	What is static keyword in java? How it has been used in variables and methods?
+
+The static keyword in Java is mainly used for memory management. The static keyword in Java is used to share the same variable or method of a given class. The users can apply static keywords with variables, methods, blocks, and nested classes
 
 22.	What is final and how it has been used variables and methods?
+Java final keyword is a non-access specifier.
+If we initialize a variable with the final keyword, then we cannot modify its value.
+If we declare a method as final, then it cannot be overridden by any subclasses.
 
 23.	What is final, finally and finalize?
 
-24.	What is a constructor ?
+Final keyword is an access modifier in Java.
+Finally, 	is a block Exception Handling in Java.
+Finalize is a method in Java used for Garbage collection. Application.
+
+24.	What is a constructor?
+
+A constructor is a special method used to initialize objects; it is called when an object of a class is created. It can be used to set initial values for object attribute
 
 25.	Can we have multiple constructors in a class?
+Yes, we can have multiple constructors in a class.
 
 26.	If we don't have a constructor declared, what is called during the object creation?
+If we do not have a constructor for a class, the Java compiler builds a default constructor for that class that is called during the object creation
 
 27.	What is "this" keyword in java ?
+This keyword refers to the current object in a method or constructor it is used to eliminate the confusion between class attributes and parameters with the same name .
+
 
 28.	What is "super" keyword in java? How many possible way can you use?
 
+The "super"  keyword refers to superclass (parent) objects. It is used to call superclass methods, and to access the superclass constructor. The most common use of the super keyword is to eliminate the confusion between superclasses and subclasses that have methods with the same name
+
 29.	What is JVM stand for ?
+
+Java Virtual Machine, loads, verifies and executes Java bytecode. It is the interpreter or the core of Java programming language because it executes Java programming
 
 30.	Is JVM platform independent?
 
+JVM platform is not independent because it takes java byte code and generates byte code for the current operating system.
+
 31.	What version of java are you using?
 
+I’m using Java SE 11.0.16.1
+
+
 32.	What is JAR stand for ?
+JAR stands for Java ARchive. It's a file format based on the popular ZIP file format and is used for aggregating many files into one
 
 33.	What is the difference between JDK and JVM?
+JRE is the implementation of JVM. It provides a platform to execute java programs. JRE consists of JVM, Java binaries, and other classes to execute any program successfully. JRE doesn't contain any development tools such as Java compiler, debugger, JShell, etc.
 
 34.	What is the difference between JVM and JRE?
 
@@ -148,6 +175,8 @@ An Integer will take more memory because an int is a primitive data type and it 
 58.	What are the dependencies for this project?
 59.	what is dependency injection in java?
 60.	What is static binding and dynamic binding?
+
+
 
 
 
