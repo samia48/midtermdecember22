@@ -1,5 +1,5 @@
 package design;
-
+import java.util.Date;
 public class FortuneEmployee {
 
 	/**
@@ -13,10 +13,26 @@ public class FortuneEmployee {
 	 * Use any databases[MongoDB, Oracle, MySql] to store data and retrieve data.
 	 *
 	 **/
-	public static void main(String[] args) {
-		
+			public static void main(String[] args) {
+			moreInfoEmployee employee1=new moreInfoEmployee("john",005,"manager");
+
+
+			employee1.setDateOfBirth("(02/05/1989)");
+			employee1.setSsn("456-48-4789");
+			employee1.setSalary(110000);
+			employee1.setPhoneNumber("347-463-4785");
+			employee1.setDepartment("IT");
+			employee1.printEmployeeInformation();
+
+
+
+
+
+
+
+		}
 
 
 	}
 
-}
+

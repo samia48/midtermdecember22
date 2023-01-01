@@ -14,7 +14,6 @@ public class LowestNumber {
 				lowest = array[i];
 			}
 		}
-		System.out.println(lowest);
 		return lowest;
 	}
 
@@ -73,22 +72,21 @@ public class LowestNumber {
 		while (rs.next()) {
 			try {
 				System.out.println(rs.getInt(1) );
-				} catch (SQLException ex) {
+			} catch (SQLException ex) {
 				ex.printStackTrace();
-
-			}
-				try {
-					con.close();
-				} catch (SQLException ex) {
-					ex.printStackTrace();
-				}
-			}
-
-				//System.out.println("Data is reading from the Table (tbl_primenumber) and displaying to the console");
-				//	for(String st:lowestVal){
-				//		System.out.println(st);
-				//	}
 			}
 		}
+		try {
+			con.close();
+		} catch (SQLException ex) {
+			ex.printStackTrace();
+		}
+	}
 
 
+
+//		System.out.println("Data is reading from the Table (tbl_primenumber) and displaying to the console");
+//		for(String st:lowestValue){
+//			System.out.println(st);
+//		}
+}
