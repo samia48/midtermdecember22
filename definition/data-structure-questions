@@ -1,39 +1,101 @@
 Please answer the below Data Structure Questions:
 
 why do we need data structure?
-A.
-
+It helps programmers save a good amount of time while performing operations such as storage, retrieval or processing of data.
+Manipulation of large amounts of data is easier.
 
 What are the various operations that can be performed on different Data Structures?
+insertion ,delete,update,search
+
 List out the areas in which data structures are applied extensively?
+dbms, artificial intelligence
+
 what is an Array?
+ a list of elements
+
 what is the difference between the Array and ArrayList?
+array is static but arrayList is dymanic.
+
 what is LinkedList?
+list with node structure
+
 How is an Array different from Linked List?
+An array use a block structure and linked list use nodes
+
 what is queue?
+Collection based on fifo
+
 what is stack?
+collection based on lifo
+
 what is FIFO and LIFO?
+FIFO is first in first out
+LIFO is last in first out
+
 what is the order of complexity?
+The number of times a particular instruction set is executed
+
 what is the best case to search an element from an array?
+Using a map
+
 what is the worst case to search an element from an array?
+using am array
+
 what is tree in data structure?
+Tree is non linear data strcuture where every element have two sub elements left and right.
+
 what is graph in data structure?
+A graph is non linear data structure where an element is connected to all the data structure
+
 what is the difference between the HashTable and HashMap?
+Hashtable is synchronized and the hashmap is not synchronized.
+
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+Linkedlist ,map ,set
+
 How HashMap works in java?
+ with pair (key value )concept
+
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
+when the index given is greater than the length of the array
+
 What are the different ways of copying an array into another array?
+use the method copyOf()
+
 What is difference between an array and a linked list?
+an array is static and use the block structure but linked list is dynamic and use node structure
+
 What is DFS and BFS?
+technique for finding a shortest path in graph using queue and stack data structure
+
 What is Recursion?
+when a method call itself
+
 What are linear and non linear data Structures?
+linear Arraylist set linked list map
+non linear graph and tree
+
 What is Big-(O)-notation?
+It is used to classify algorithms according to how their run time or space requirements grow as the input size grows.
+
 Outlined different kind of sorting algorithm with time complexity?
+insertion sorting
+bubble soritng
+bucket sorting
+heap sorting
+quick sorting
+selection sorting
+
 
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
   a)In terms of Accessing element.
   b)In terms of Inserting element.
   c)In terms of Searching element.
   d)In terms of Removing element.
+        access      search   insert     delete
+  Array  	O(1)	O(N)	 O(N)	    O(N)
+  Stack  	O(N)	O(N)	 O(1)	    O(1)
+  Queue	    O(N)	O(N)	 O(1)	    O(1)
+ Linked listO(N)	O(N)	 O(1)	    O(1)
 
 
